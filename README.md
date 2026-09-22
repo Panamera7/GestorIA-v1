@@ -1,2 +1,7 @@
-# GestorIA-v1
-GestorIA versión 1 — documentos, trimestre 303 y NRC
+# GestorIA v1
+
+App web para el móvil. Cuando GitHub Pages esté activo:
+
+https://panamera7.github.io/GestorIA-v1/
+
+En el móvil: abrir en Chrome o Safari → Añadir a pantalla de inicio.

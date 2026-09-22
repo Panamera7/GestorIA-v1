@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GestorIA · Versión 1</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#1b3a4b" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div>
+        <h1 class="brand">Gestor<span>IA</span></h1>
+        <p class="sub">Versión 1 · documentos reales, trimestre y NRC. Nada se presenta solo.</p>
+      </div>
+      <div class="clock" id="clock"></div>
+    </header>
+    <nav class="tabs">
+      <button class="on" data-tab="docs">Documentos</button>
+      <button data-tab="trimestre">Trimestre 3T</button>
+      <button data-tab="entidades">Entidades</button>
+    </nav>
+    <section id="tab-docs"></section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
